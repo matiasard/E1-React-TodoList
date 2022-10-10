@@ -10,7 +10,6 @@ export const Header = ({ onAddTask }) => {
 		event.preventDefault();
 
 		onAddTask(title);
-		console.log(title);
 		setTitle("");
 	}
 
