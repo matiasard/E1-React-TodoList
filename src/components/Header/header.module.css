@@ -54,3 +54,9 @@
 	font-weight: 700;
 	font-size: 14px;
 }
+
+@media (max-width: 600px) {
+	.newTaskForm {
+		padding: 0;
+	}
+}
